@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f5f5f5"/>
+
+  <!-- Automaten Icon -->
+  <g transform="translate(420,90)">
+    <rect x="0" y="0" rx="35" ry="35" width="360" height="520" fill="#111111"/>
+
+    <!-- Display -->
+    <rect x="45" y="40" rx="20" ry="20" width="270" height="270" fill="#000000"/>
+
+    <!-- Buttons -->
+    <rect x="70" y="65" rx="12" ry="12" width="65" height="95" fill="#e4003a"/>
+    <rect x="155" y="65" rx="12" ry="12" width="65" height="95" fill="#7b0018"/>
+    <rect x="240" y="65" rx="12" ry="12" width="65" height="95" fill="#3a000c"/>
+
+    <rect x="70" y="185" rx="12" ry="12" width="65" height="95" fill="#5a0012"/>
+    <rect x="155" y="185" rx="12" ry="12" width="65" height="95" fill="#b3002d"/>
+    <rect x="240" y="185" rx="12" ry="12" width="65" height="95" fill="#6d0016"/>
+
+    <!-- Linie -->
+    <line x1="45" y1="350" x2="315" y2="350" stroke="#6d0016" stroke-width="3"/>
+
+    <!-- Anzeige -->
+    <rect x="70" y="395" rx="10" ry="10" width="170" height="40" fill="#7a0b1e"/>
+    <rect x="70" y="395" rx="10" ry="10" width="90" height="40" fill="#d41238"/>
+
+    <!-- Füße -->
+    <line x1="5" y1="515" x2="355" y2="515" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Schriftzug -->
+  <text x="120" y="860" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" fill="#111111">
+    Swiss
+  </text>
+
+  <text x="650" y="860" font-family="Arial, Helvetica, sans-serif" font-size="150" font-weight="700" fill="#e4003a">
+    Sip
+  </text>
+
+  <!-- Untertitel -->
+  <text x="180" y="980" font-family="Arial, Helvetica, sans-serif" font-size="44" letter-spacing="12" fill="#9a9a9a">
+    SIPPOINT AUTOMATEN
+  </text>
+</svg>
