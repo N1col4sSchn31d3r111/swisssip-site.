@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Impressum & Datenschutz – SipPoint</title>
+<link rel="icon" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --red: #C8102E;
+    --dark: #1A1A1A;
+    --mid: #4A4A4A;
+    --muted: #888;
+    --light: #F7F6F3;
+    --white: #FFFFFF;
+    --border: rgba(0,0,0,0.08);
+    --serif: 'DM Serif Display', Georgia, serif;
+    --sans: 'DM Sans', system-ui, sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--white);
+    color: var(--dark);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: var(--serif);
+    font-size: 1.4rem;
+    color: var(--dark);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .logo-dot {
+    width: 8px; height: 8px;
+    background: var(--red);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  nav a.cta-nav {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--white);
+    background: var(--red);
+    padding: 0.5rem 1.25rem;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: opacity 0.2s;
+  }
+
+  nav a.cta-nav:hover { opacity: 0.85; }
+
+  main {
+    flex: 1;
+    background: var(--light);
+    padding: 8rem 2rem 6rem;
+  }
+
+  .legal {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .legal h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
+    line-height: 1.1;
+    margin-bottom: 2.5rem;
+  }
+
+  .legal section {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.75rem 2rem;
+    margin-bottom: 1.25rem;
+    scroll-margin-top: 88px;
+  }
+
+  .legal h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .legal p { color: var(--mid); }
+
+  .legal dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.4rem 1.5rem;
+    color: var(--mid);
+  }
+
+  .legal dt { font-weight: 500; color: var(--dark); }
+
+  .legal a { color: var(--red); text-decoration: none; }
+  .legal a:hover { text-decoration: underline; }
+
+  .legal .note {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  .back {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  .back:hover { color: var(--dark); }
+
+  footer {
+    background: var(--dark);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  footer p { font-size: 0.8rem; color: rgba(255,255,255,0.3); }
+  footer a { color: rgba(255,255,255,0.4); text-decoration: none; }
+  footer a:hover { color: rgba(255,255,255,0.7); }
+
+  @media (max-width: 600px) {
+    .legal section { padding: 1.5rem 1.25rem; }
+    .legal dl { grid-template-columns: 1fr; gap: 0.1rem; }
+    .legal dd { margin-bottom: 0.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="logo">
+    <span class="logo-dot"></span>SipPoint
+  </a>
+  <a href="/#kontakt" class="cta-nav">Jetzt anfragen</a>
+</nav>
+
+<main>
+  <div class="legal">
+    <a href="/" class="back">← Zurück zur Startseite</a>
+    <h1>Impressum</h1>
+
+    <section id="anbieterin">
+      <h2>Anbieterin</h2>
+      <dl>
+        <dt>Firma</dt><dd>SipPoint</dd>
+        <dt>Inhaber</dt><dd>Nicolas Schneider</dd>
+        <dt>Rechtsform</dt><dd>Einzelunternehmen</dd>
+        <dt>Adresse</dt><dd>Rheintalweg 68, 4125 Riehen, Schweiz</dd>
+      </dl>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <dl>
+        <dt>E-Mail</dt><dd><a href="mailto:info@sippoint.ch">info@sippoint.ch</a></dd>
+        <dt>Website</dt><dd><a href="https://sippoint.ch">sippoint.ch</a></dd>
+      </dl>
+    </section>
+
+    <section id="datenschutz">
+      <h2>Datenschutz</h2>
+      <p>Personendaten werden gemäss dem Schweizer Datenschutzgesetz (DSG) vertraulich behandelt und nur soweit erforderlich bearbeitet. Kontaktangaben werden ausschliesslich zur Bearbeitung von Anfragen und zur geschäftlichen Kommunikation verwendet.</p>
+    </section>
+
+    <section id="urheberrecht">
+      <h2>Urheberrecht</h2>
+      <p>Die Inhalte dieser Website sind urheberrechtlich geschützt. Eine Verwendung oder Vervielfältigung ohne Zustimmung ist nicht gestattet.</p>
+    </section>
+
+    <section id="haftungsausschluss">
+      <h2>Haftungsausschluss</h2>
+      <p>Die Inhalte dieser Website wurden mit grösstmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität übernehmen wir jedoch keine Gewähr.</p>
+    </section>
+
+    <p class="note">© SipPoint. Alle Rechte vorbehalten. Es gilt Schweizer Recht.</p>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 SipPoint &nbsp;·&nbsp; <a href="mailto:info@sippoint.ch">info@sippoint.ch</a> &nbsp;·&nbsp; <a href="/impressum.html">Impressum</a> &nbsp;·&nbsp; <a href="/impressum.html#datenschutz">Datenschutz</a></p>
+</footer>
+
+</body>
+</html>
